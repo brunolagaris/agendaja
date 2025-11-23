@@ -1,0 +1,144 @@
+#######################################
+# SISTEMA (macOS)
+#######################################
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+*.swp
+*.swo
+
+#######################################
+# PYTHON BÁSICO
+#######################################
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pacotes / builds
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtualenvs
+.env
+.env.example
+.env_example
+.env-example
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ferramentas de dependência
+.poetry/
+.poetry.lock
+Pipfile.lock
+poetry.lock
+
+#######################################
+# LOGS / TEMP
+#######################################
+*.log
+*.tmp
+*.temp
+*.out
+*.pid
+
+#######################################
+# TESTES
+#######################################
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+.junit/
+
+#######################################
+# TYPE CHECKERS / LINTERS
+#######################################
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+ruff_cache/
+.pyright/
+
+#######################################
+# DJANGO / FLASK / ETC
+#######################################
+# Bancos locais
+db.sqlite3
+*.sqlite3
+
+# Arquivos estáticos gerados
+staticfiles/
+static_root/
+media/
+media_root/
+
+# Arquivos de ambiente
+*.env
+*.env.local
+.env.local
+.env.*.local
+
+#######################################
+# EDITORES
+#######################################
+
+# VS Code
+.vscode/
+.history/
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Outros
+*.sublime-project
+*.sublime-workspace
+
+#######################################
+# NODE (CASO VOCÊ META UM FRONT JUNTO)
+#######################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+.cache/yarn/
+.cache/npm/
+*.tsbuildinfo
+
+#######################################
+# DOCKER (SE VOCÊ APRESENTAR ISSO PRA SOCIEDADE)
+#######################################
+.docker/
+docker-compose.override.yml
